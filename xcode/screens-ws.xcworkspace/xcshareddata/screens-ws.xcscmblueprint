@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "793d7474-1bbf-4b8e-b659-2f4ed974c507",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "793d7474-1bbf-4b8e-b659-2f4ed974c507" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "793d7474-1bbf-4b8e-b659-2f4ed974c507" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "03571AF5-CFD3-4A37-9D95-A2B4BAFD0408",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "793d7474-1bbf-4b8e-b659-2f4ed974c507" : "screens\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "screens-ws",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "xcode\/screens-ws.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/jmgiorgi.svn.cloudforge.com\/screens",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "793d7474-1bbf-4b8e-b659-2f4ed974c507"
+    }
+  ]
+}

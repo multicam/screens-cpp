@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97426FA11D6B1CDE00857C3C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97426FA01D6B1CDE00857C3C /* main.cpp */; };
+		97846F86253985AC00992C27 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 97846F85253985AC00992C27 /* libglfw.3.3.dylib */; };
+		97846F8B2539886700992C27 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97846F8A2539886700992C27 /* OpenGL.framework */; };
+		97846F922539933500992C27 /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97846F8D2539933500992C27 /* imgui_demo.cpp */; };
+		97846F932539933500992C27 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97846F8E2539933500992C27 /* imgui_draw.cpp */; };
+		97846F942539933500992C27 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97846F8F2539933500992C27 /* imgui.cpp */; };
+		97846F952539933500992C27 /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97846F912539933500992C27 /* imgui_widgets.cpp */; };
+		97846F99253993A500992C27 /* imgui_impl_glfw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97846F97253993A500992C27 /* imgui_impl_glfw.cpp */; };
+		97846F9D253993BD00992C27 /* imgui_impl_opengl2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97846F9B253993BD00992C27 /* imgui_impl_opengl2.cpp */; };
+		97846FF4253BAD0B00992C27 /* librealsense.1.12.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 97846FE0253BA99000992C27 /* librealsense.1.12.1.dylib */; };
+		97846FF9253BCD4A00992C27 /* with-imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97846FF7253BCD4A00992C27 /* with-imgui.cpp */; };
+		97846FFC253BCDBF00992C27 /* with-simple-opengl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97846FFB253BCDBF00992C27 /* with-simple-opengl.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		97426F9B1D6B1CDE00857C3C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		97426F9D1D6B1CDE00857C3C /* boilerplate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = boilerplate; sourceTree = BUILT_PRODUCTS_DIR; };
+		97426FA01D6B1CDE00857C3C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		97846F85253985AC00992C27 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../../../../usr/local/Cellar/glfw/3.3.2/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
+		97846F8A2539886700992C27 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		97846F8D2539933500992C27 /* imgui_demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_demo.cpp; path = ../../../../../_libraries/imgui/imgui_demo.cpp; sourceTree = "<group>"; };
+		97846F8E2539933500992C27 /* imgui_draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_draw.cpp; path = ../../../../../_libraries/imgui/imgui_draw.cpp; sourceTree = "<group>"; };
+		97846F8F2539933500992C27 /* imgui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui.cpp; path = ../../../../../_libraries/imgui/imgui.cpp; sourceTree = "<group>"; };
+		97846F902539933500992C27 /* imgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imgui.h; path = ../../../../../_libraries/imgui/imgui.h; sourceTree = "<group>"; };
+		97846F912539933500992C27 /* imgui_widgets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_widgets.cpp; path = ../../../../../_libraries/imgui/imgui_widgets.cpp; sourceTree = "<group>"; };
+		97846F97253993A500992C27 /* imgui_impl_glfw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_impl_glfw.cpp; path = ../../../../../_libraries/imgui/backends/imgui_impl_glfw.cpp; sourceTree = "<group>"; };
+		97846F98253993A500992C27 /* imgui_impl_glfw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imgui_impl_glfw.h; path = ../../../../../_libraries/imgui/backends/imgui_impl_glfw.h; sourceTree = "<group>"; };
+		97846F9B253993BD00992C27 /* imgui_impl_opengl2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_impl_opengl2.cpp; path = ../../../../../_libraries/imgui/backends/imgui_impl_opengl2.cpp; sourceTree = "<group>"; };
+		97846F9C253993BD00992C27 /* imgui_impl_opengl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imgui_impl_opengl2.h; path = ../../../../../_libraries/imgui/backends/imgui_impl_opengl2.h; sourceTree = "<group>"; };
+		97846FA22539983E00992C27 /* rsutil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = rsutil.h; path = "../../../../../_libraries/librealsense-legacy/include/librealsense/rsutil.h"; sourceTree = "<group>"; };
+		97846FA32539983E00992C27 /* rs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = rs.h; path = "../../../../../_libraries/librealsense-legacy/include/librealsense/rs.h"; sourceTree = "<group>"; };
+		97846FA42539983E00992C27 /* rs.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = rs.hpp; path = "../../../../../_libraries/librealsense-legacy/include/librealsense/rs.hpp"; sourceTree = "<group>"; };
+		97846FA9253999B700992C27 /* librealsense.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = librealsense.dylib; path = "../../../../../Library/Developer/Xcode/DerivedData/librealsense-dqsmxrejethreqfoigwreswmqdfm/Build/Products/Debug/librealsense.dylib"; sourceTree = "<group>"; };
+		97846FE0253BA99000992C27 /* librealsense.1.12.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = librealsense.1.12.1.dylib; path = ../../../../../../../usr/local/lib/librealsense.1.12.1.dylib; sourceTree = "<group>"; };
+		97846FE8253BAA8D00992C27 /* librealsense.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = librealsense.dylib; path = ../../../../../../../usr/local/lib/librealsense.dylib; sourceTree = "<group>"; };
+		97846FED253BAB9A00992C27 /* librealsense.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = librealsense.dylib; path = ../../../../../../../../usr/local/lib/librealsense.dylib; sourceTree = "<group>"; };
+		97846FF7253BCD4A00992C27 /* with-imgui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "with-imgui.cpp"; sourceTree = "<group>"; };
+		97846FFB253BCDBF00992C27 /* with-simple-opengl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "with-simple-opengl.cpp"; sourceTree = "<group>"; };
+		97846FFF253BD2F900992C27 /* example.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = example.hpp; sourceTree = "<group>"; };
+		97847001253BD4A900992C27 /* stb */ = {isa = PBXFileReference; lastKnownFileType = folder; name = stb; path = boilerplate/stb; sourceTree = SOURCE_ROOT; };
+		97847004253BD54A00992C27 /* concurrency.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = concurrency.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97426F9A1D6B1CDE00857C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97846F8B2539886700992C27 /* OpenGL.framework in Frameworks */,
+				97846F86253985AC00992C27 /* libglfw.3.3.dylib in Frameworks */,
+				97846FF4253BAD0B00992C27 /* librealsense.1.12.1.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97426F941D6B1CDD00857C3C = {
+			isa = PBXGroup;
+			children = (
+				97426F9F1D6B1CDE00857C3C /* boilerplate */,
+				97846F842539857B00992C27 /* Dependencies */,
+				97846F892539886700992C27 /* Frameworks */,
+				97426F9E1D6B1CDE00857C3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97426F9E1D6B1CDE00857C3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97426F9D1D6B1CDE00857C3C /* boilerplate */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97426F9F1D6B1CDE00857C3C /* boilerplate */ = {
+			isa = PBXGroup;
+			children = (
+				97847001253BD4A900992C27 /* stb */,
+				97846FF6253BCCFD00992C27 /* samples */,
+				97426FA01D6B1CDE00857C3C /* main.cpp */,
+				97846FFF253BD2F900992C27 /* example.hpp */,
+				97847004253BD54A00992C27 /* concurrency.hpp */,
+			);
+			path = boilerplate;
+			sourceTree = "<group>";
+		};
+		97846F842539857B00992C27 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				97846F9F2539980D00992C27 /* librealsense */,
+				97846F8C2539925E00992C27 /* imgui */,
+				97846F85253985AC00992C27 /* libglfw.3.3.dylib */,
+				97846FED253BAB9A00992C27 /* librealsense.dylib */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		97846F892539886700992C27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97846FE8253BAA8D00992C27 /* librealsense.dylib */,
+				97846FE0253BA99000992C27 /* librealsense.1.12.1.dylib */,
+				97846FA9253999B700992C27 /* librealsense.dylib */,
+				97846F8A2539886700992C27 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97846F8C2539925E00992C27 /* imgui */ = {
+			isa = PBXGroup;
+			children = (
+				97846F8D2539933500992C27 /* imgui_demo.cpp */,
+				97846F8E2539933500992C27 /* imgui_draw.cpp */,
+				97846F912539933500992C27 /* imgui_widgets.cpp */,
+				97846F8F2539933500992C27 /* imgui.cpp */,
+				97846F902539933500992C27 /* imgui.h */,
+				97846F97253993A500992C27 /* imgui_impl_glfw.cpp */,
+				97846F98253993A500992C27 /* imgui_impl_glfw.h */,
+				97846F9B253993BD00992C27 /* imgui_impl_opengl2.cpp */,
+				97846F9C253993BD00992C27 /* imgui_impl_opengl2.h */,
+			);
+			path = imgui;
+			sourceTree = "<group>";
+		};
+		97846F9F2539980D00992C27 /* librealsense */ = {
+			isa = PBXGroup;
+			children = (
+				97846FA32539983E00992C27 /* rs.h */,
+				97846FA42539983E00992C27 /* rs.hpp */,
+				97846FA22539983E00992C27 /* rsutil.h */,
+			);
+			path = librealsense;
+			sourceTree = "<group>";
+		};
+		97846FF6253BCCFD00992C27 /* samples */ = {
+			isa = PBXGroup;
+			children = (
+				97846FF7253BCD4A00992C27 /* with-imgui.cpp */,
+				97846FFB253BCDBF00992C27 /* with-simple-opengl.cpp */,
+			);
+			path = samples;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97426F9C1D6B1CDE00857C3C /* boilerplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97426FA41D6B1CDE00857C3C /* Build configuration list for PBXNativeTarget "boilerplate" */;
+			buildPhases = (
+				97426F991D6B1CDE00857C3C /* Sources */,
+				97426F9A1D6B1CDE00857C3C /* Frameworks */,
+				97426F9B1D6B1CDE00857C3C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = boilerplate;
+			productName = boilerplate;
+			productReference = 97426F9D1D6B1CDE00857C3C /* boilerplate */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97426F951D6B1CDE00857C3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Jean-Marc Giorgi";
+				TargetAttributes = {
+					97426F9C1D6B1CDE00857C3C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 97426F981D6B1CDE00857C3C /* Build configuration list for PBXProject "boilerplate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97426F941D6B1CDD00857C3C;
+			productRefGroup = 97426F9E1D6B1CDE00857C3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97426F9C1D6B1CDE00857C3C /* boilerplate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97426F991D6B1CDE00857C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97846F932539933500992C27 /* imgui_draw.cpp in Sources */,
+				97846F942539933500992C27 /* imgui.cpp in Sources */,
+				97846F922539933500992C27 /* imgui_demo.cpp in Sources */,
+				97846FF9253BCD4A00992C27 /* with-imgui.cpp in Sources */,
+				97846F952539933500992C27 /* imgui_widgets.cpp in Sources */,
+				97846F9D253993BD00992C27 /* imgui_impl_opengl2.cpp in Sources */,
+				97846FFC253BCDBF00992C27 /* with-simple-opengl.cpp in Sources */,
+				97426FA11D6B1CDE00857C3C /* main.cpp in Sources */,
+				97846F99253993A500992C27 /* imgui_impl_glfw.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		97426FA21D6B1CDE00857C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lglfw";
+				OTHER_LIBTOOLFLAGS = "";
+				"OTHER_LIBTOOLFLAGS[arch=*]" = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		97426FA31D6B1CDE00857C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-lglfw";
+				OTHER_LIBTOOLFLAGS = "";
+				"OTHER_LIBTOOLFLAGS[arch=*]" = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		97426FA51D6B1CDE00857C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "-";
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/opt/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.3.2/lib,
+					/usr/local/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lglfw",
+					"-lrealsense",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		97426FA61D6B1CDE00857C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "-";
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/opt/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.3.2/lib,
+					/usr/local/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lglfw",
+					"-lrealsense",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97426F981D6B1CDE00857C3C /* Build configuration list for PBXProject "boilerplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97426FA21D6B1CDE00857C3C /* Debug */,
+				97426FA31D6B1CDE00857C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97426FA41D6B1CDE00857C3C /* Build configuration list for PBXNativeTarget "boilerplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97426FA51D6B1CDE00857C3C /* Debug */,
+				97426FA61D6B1CDE00857C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97426F951D6B1CDE00857C3C /* Project object */;
+}
